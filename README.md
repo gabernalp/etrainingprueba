@@ -17,7 +17,8 @@ Utilice un hostname de pruebas como pruebaetraining.test y desde su servidor vir
 ## Instalación y Uso
 
 Opción 1 - Clonar el repositorio con **git clone**
-Opción 2 - Descargue el archivo .zip y yxtraiga el archivo y colóquelo en la carpeta que desee
+
+Opción 2 - Descargue el archivo .zip y extraiga el archivo y colóquelo en la carpeta que desee
 
 ## Despliegue
 

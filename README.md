@@ -23,20 +23,31 @@ Opción 2 - Descargue el archivo .zip y extraiga el archivo y colóquelo en la c
 ## Despliegue
 
 Ejecute **cp .env.example .env** el archivo para copiar el archivo de ejemplo. .env
+
 Luego, edite su archivo **.env** con las credenciales de la base de datos y otras configuraciones.
+
 Ejecutar el comando **composer install**
+
 Ejecutar el comando **php artisan migrate --seed**
+
 **Aviso:** la semilla es importante, porque creará el primer usuario administrador
+
 Ejecutar el comando **php artisan key:generate**
+
 Correr **npm install**
+
 Correr **npm run dev**
 
-**Laravel Sanctum para API Auth:** si está utilizando un nombre de host personalizado para un proyecto que no sea localhost, asegúrese de que el valor de la variable  SANCTUM_STATEFUL_DOMAINS en el archivo .env sea el mismo que su nombre de host en el navegador. Ejemplo:SANCTUM_STATEFUL_DOMAINS=miproyecto.test
-Y listo, vaya a su dominio e inicia sesión:
+**Laravel Sanctum para API Auth:** si está utilizando un nombre de host personalizado para un proyecto que no sea localhost, asegúrese de que el valor de la variable  SANCTUM_STATEFUL_DOMAINS en el archivo .env sea el mismo que su nombre de host en el navegador. 
+
+Ejemplo:SANCTUM_STATEFUL_DOMAINS=miproyecto.test
+
+Y listo, vaya a su dominio e inicie sesión:
 
 ## Credenciales predeterminadas
 
 Nombre de usuario: admin@etraining.com
+
 Contraseña: ETraining2022$
 
 ## Licencia

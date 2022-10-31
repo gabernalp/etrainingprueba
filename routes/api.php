@@ -20,3 +20,5 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
     // Course
     Route::resource('courses', 'CourseApiController');
 });
+
+Route::post('login', 'Api\\AuthController@login');
